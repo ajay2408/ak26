@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bd" onkeypress="BodyKeyPress(event)">
+
+    <div class="main">
+
+        <div id="circle-list">
+            <!-- <div id="circle"></div> -->
+
+
+        </div>
+        <div class="footerButtons">
+            <div class="left">
+                <label id="">Score:</label><label id="lbl1" class="Score">0</label>
+                <br>
+                <label id="">Last Score:</label><label id="last Score" class="Score">0</label>
+                <br>
+                <label id="">Highest Score:</label><label id="Highest Score" class="Score">0</label>
+                <br>
+            </div>
+
+            
+            <div class="center">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+                <div id="box5" class="box"></div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="right">
+                <button onclick="btn1Click()" type="button" id="btn1" name="btn1">start</button>
+                <button onclick="btn2Click()" type="button" id="btn2" name="btn2">pause</button>
+                <button onclick="btn3Click()" type="button" id="btn3" name="btn3">Restart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="task11.js"></script>
+</body>
+
+</html>
